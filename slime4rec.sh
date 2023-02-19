@@ -1,0 +1,1 @@
+python run_load.py --dataset='Beauty' --train_batch_size=256 lmd=0.1 --lmd_sem=0.1 --model='SLIME4Rec' --contrast='us_x' --sim='dot' --tau=1 --valid_metric=Recall@10 --n_layers=2 --filter_mixer='G' --dynamic_ratio=0.5
